@@ -1,1 +1,1 @@
-# pair-project
+THIS A CHKOBA GAME TRANSLATED TO CODE 
