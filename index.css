@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+#game-board {
+    width: 80%;
+    height: 80%;
+    background-image: url('images/image-Photoroom.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid #000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+ #center-cards {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    cursor: grabbing;
+}
+img:hover{
+    transform: scale(1.2)
+    }
+#player-hand{
+    transition: 0.3s;
+    cursor: grabbing;
+    
+}
+#computer-hand{
+    cursor: grabbing;
+    
+}
+#player-score {
+     font-size: 2rem;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: coral;
+}
+#computer-score {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: coral;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 10px 0;
+}
+
